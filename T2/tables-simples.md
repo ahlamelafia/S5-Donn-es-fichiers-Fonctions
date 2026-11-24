@@ -15,7 +15,7 @@ Table : CATEGORIE
 id_categorie (PK)
 nom_categorie
 
-Table : ARTICLE
+Table :  ARTICLE
 ---------------
 id_article (PK)
 titre_article
