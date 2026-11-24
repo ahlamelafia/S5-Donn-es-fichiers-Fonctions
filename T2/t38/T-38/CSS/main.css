@@ -1,0 +1,436 @@
+
+/* HERO */
+
+.hero {
+    background-image:
+        linear-gradient(rgba(9, 27, 48, 0.82), rgba(9, 27, 48, 0.82)),
+        url("../images/photo-backg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+}
+
+.hero-text {
+    width: 65%;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #263b54;
+    color: #f5c34d;
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.hero-text p {
+    color: #c1ccda;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn-yellow {
+    display: inline-block;
+    background-color: #f4bd3e;
+    color: #14243b;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btn-border {
+    display: inline-block;
+    border: 1px solid #aab6c5;
+    color: #ffffff;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+
+/* DANGER */
+
+.danger {
+    background-color: #fff5e5;
+    border-left: 5px solid #e8a322;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8%;
+}
+
+.danger-icon {
+    font-size: 30px;
+    color: #d68b13;
+}
+
+.danger h3 {
+    color: #9b5d08;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.danger p {
+    font-size: 12px;
+}
+
+.danger-contact {
+    margin-left: auto;
+}
+
+
+/* HOW IT WORKS */
+
+.how {
+    background-color: #f8f5ef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.how .section-heading {
+    display: none;
+}
+
+.steps {
+    display: flex;
+    gap: 35px;
+}
+
+.step {
+    width: 33.33%;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+}
+
+.step span {
+    display: block;
+    color: #e9a900;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.step h3 {
+    color: #17283f;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.step p {
+    font-size: 12px;
+}
+
+
+/* INCIDENTS */
+
+.incidents {
+    background-color: #f8f5ef;
+    padding-top: 35px;
+}
+
+.incidents .section-heading {
+    margin-bottom: 18px;
+}
+
+.incidents .section-heading span,
+.incidents .section-heading p {
+    display: none;
+}
+
+.incidents .section-heading h2 {
+    font-size: 22px;
+}
+
+.incident-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.incident-card {
+    width: calc(33.33% - 8px);
+    background-color: #ffffff;
+    border: 1px solid #e8e4dc;
+    border-radius: 7px;
+    padding: 18px;
+}
+
+.incident-card .icon {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.incident-card h3 {
+    color: #17283f;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.incident-card p {
+    font-size: 11px;
+}
+
+
+/* STATISTICS */
+
+.statistics {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px 8%;
+}
+
+.statistics div {
+    width: 25%;
+}
+
+.statistics h2 {
+    color: #e9aa19;
+    font-size: 27px;
+    margin-bottom: 7px;
+}
+
+.statistics p {
+    color: #68758a;
+    font-size: 11px;
+}
+
+
+/* SAFETY */
+
+.safety {
+    background-color: #f8f5ef;
+}
+
+.safety-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.safety-card {
+    width: calc(50% - 6px);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e8e4dc;
+    border-radius: 7px;
+}
+
+.safety-card span {
+    font-size: 25px;
+}
+
+.safety-card h3 {
+    color: #17283f;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.safety-card p {
+    font-size: 12px;
+}
+
+
+/* CITIES */
+
+.cities {
+    background-color: #ffffff;
+}
+
+.city-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.city {
+    width: calc(33.33% - 8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f5ef;
+    border: 1px solid #e8e4dc;
+    padding: 13px;
+    border-radius: 6px;
+}
+
+.city strong {
+    font-size: 12px;
+}
+
+.city span {
+    color: #68758a;
+    background-color: #eeeae2;
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 12px;
+}
+
+
+/* FAQ */
+
+.faq {
+    background-color: #f8f5ef;
+}
+
+.faq-list {
+    width: 100%;
+    margin: auto;
+}
+
+.faq-list details {
+    border-bottom: 1px solid #e4ded4;
+    padding: 17px 0;
+}
+
+.faq-list summary {
+    color: #17283f;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-list details p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+
+/* EMERGENCY */
+
+.emergency {
+    background-color: #ffffff;
+}
+
+.emergency-list {
+    display: flex;
+    gap: 15px;
+}
+
+.emergency-card {
+    width: 33.33%;
+    background-color: #f8f5ef;
+    border: 1px solid #e8e4dc;
+    padding: 22px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.emergency-card h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.emergency-card h2 {
+    color: #d69b1c;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.emergency-card p {
+    font-size: 12px;
+}
+
+
+/* FINAL CTA */
+
+.final-cta {
+    background-color: #142943;
+    text-align: center;
+}
+
+.final-cta h2 {
+    color: #ffffff;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.final-cta p {
+    color: #c4cfdd;
+    font-size: 13px;
+}
+
+.final-cta .buttons {
+    justify-content: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #0d1b2e;
+    padding: 45px 8% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-bottom: 30px;
+}
+
+.footer-about {
+    width: 35%;
+}
+
+.footer-about h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    color: #aebaca;
+    font-size: 12px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h3 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.footer-column a,
+.footer-column p {
+    color: #aebaca;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #304056;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #8795a8;
+    font-size: 11px;
+    margin-bottom: 7px;
+}

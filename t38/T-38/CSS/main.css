@@ -1,0 +1,98 @@
+/* HERO */
+
+.hero{
+    background-image: url("../images/photo-backg.png");
+    height: 500px ;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    padding:60px 8% ;
+}
+.hero-text{
+    width: 65%;
+}
+.badge{
+    display: inline-block;
+    background-color: #263b54;
+    color:#f5c34d ;
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.hero h1{
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+
+}
+.hero-text p{
+    color: #c1ccda;
+    font-size: 16px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.btn-yellow{
+    display: inline-block;
+    background-color: #f4bd3e;
+    color: #14243b;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-border{
+    display: inline-block;
+    border: 1px solid #aab6c5;
+    color: #ffffff;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+/* DANGER */
+.danger{
+    background-color: #ffffff;
+    height: 60px;
+    margin:  -20px  50px 0 100px;
+    border-bottom: 1.5px solid gainsboro;
+    border-left: 5px solid red;
+    border-radius: 8px ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+   
+
+}
+.danger-icon{
+    font-size: 30px;
+    color:red ;
+    padding: 4px;
+
+}
+
+.danger p{
+    font-size: 14px;
+    color: #0d1b2d;
+    
+
+}
+.danger strong{
+    font-size: 14px;
+    color: #0d1b2d;
+    max-width: 12000;
+    
+}
+
+/* HOW IT WORKS */
+.how{
+    background-color: #f8f5ef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.steps
