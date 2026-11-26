@@ -3,5 +3,5 @@ function afficherBienvenue() {
     console.log("Statut : Utilisateur connecté");
 }
 
-afficherBienvenue();
-afficherBienvenue();
+afficherBienvenue() ;
+afficherBienvenue() ;
